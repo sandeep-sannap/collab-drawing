@@ -16,7 +16,6 @@ let stack = [];
 let index = -1;
 
 function change_color(element) {
-  //console.log(element.style.background.split(" ")[0]);
   draw_color = element.style.background.split(" ")[0];
 }
 
